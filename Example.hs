@@ -1,5 +1,6 @@
 module Main where
 
+import Control.Concurrent.Async
 import Codec.Compression.Zlib (compress, decompress)
 import Prelude ((.), putStrLn)
 
